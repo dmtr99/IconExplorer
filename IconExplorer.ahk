@@ -27,7 +27,7 @@ if(false){
 LV.SetImageList(ImageListID)    ; Assign the above ImageList to the current ListView.
 LV.OnEvent("Click", LV_Click)
 LV.OnEvent("ContextMenu", LV_ContextMenu)
-LV.ModifyCol("Hdr")    ; Auto-adjust the column widths.
+LV.ModifyCol()    ; Auto-adjust the column widths.
 LV_Update(LV)
 MyGui.Show
 
